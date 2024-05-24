@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+.btn-nav {
+    background-color: #FFFFFF;
+    color: #040404;
+    border-radius: 0;
+    width: 100%;
+    text-align: start;
+}
+
+.btn-nav:hover {
+    background-color: #e8e8f0;
+    color: #3730E9;
+}
+
+.btn-nav.active {
+    background-color: #e8e8f0;
+    color: #3730E9;
+}
+
+.btn-glass {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border-radius: 0px !important;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    text-align: start;
+    color: white;
+}
+
+.btn-glass:hover {
+    background: rgba(253, 249, 48, 0.5);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    color: white;
+}
+
+.btn-glass.active {
+    background: rgba(253, 249, 48, 0.5);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    color: white;
+}
+
+.btn-glass-dark {
+    background: rgba(0, 0, 0, 0.2);
+    
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border-radius: 0px !important;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    text-align: start;
+    color: white;
+}
+
+.btn-glass-dark:hover {
+    background: rgba(253, 249, 48, 0.5);
+    
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    color: white;
+}
+
+.btn-glass-dark.active {
+    background: rgba(253, 249, 48, 0.5);
+    
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    color: white;
+}
+
+.btn-glass-mobile {
+    background: rgba(255, 255, 255, 0.0);
+    border-radius: 0px !important;
+    color: white;
+}
+
+.btn-glass-mobile:hover {
+    background: rgba(253, 249, 48, 0.5);
+    border-radius: 16px;
+    
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    color: white;
+}
+
+.btn-glass-mobile.active {
+    background: rgba(253, 249, 48, 0.5);
+    border-radius: 16px;
+    
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    color: white;
+}
+
+.bg-glass-thin {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 0px;
+    
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+}
+
+.bg-glass-thick {
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 0px;
+    
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+}
+
+.bg-glass-black-thin {
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 0px;
+    
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+}
+
+.bg-glass-black-thick {
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 0px;
+    
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.0);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.font-noto {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.toast{
+    background: rgba(0, 0, 0, 0.0);
+}
+
+.w-vw-25{
+    width: 25vw;
+}
+
+.w-vw-75{
+    width: 75vw;
+}
